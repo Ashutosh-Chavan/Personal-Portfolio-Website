@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: Comic Sans MS;
+    color: #0B60B0;
+    background-color: aliceblue;
+}
+
+
+.nav{
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio{
+    font-size: 50px;
+}
+
+
+.skills a{
+    font-size: 20px;
+    margin: 10px;
+    padding: 7px 12px;
+}
+
+.skills a:hover{
+    background-color: #0B60B0;
+    color: white;
+    border-top-left-radius:  13px;
+    border-bottom-right-radius: 13px;
+}
+
+.links a{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left{
+    margin-top: 200px;   
+}
+
+
+p{
+    color:rgb(111, 109, 109);
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+span{
+    font-size: 30px;
+}
+
+button{
+    cursor: pointer;
+    border-radius:  10px;
+    background-color: #40A2D8;
+    color: white;
+    font-size: 25px;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 15px;
+}
+
+.right img{
+    width: 300px;
+    margin-top: 150px;
+}
