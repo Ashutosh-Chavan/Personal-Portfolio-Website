@@ -1,1 +1,84 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family:Comic Sans MS;
+    background-color: aliceblue;
+    color: #0B60B0;
+}
 
+
+.nav{
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio{
+    font-size: 50px;
+}
+
+
+.skills a{
+    font-size: 20px;
+    margin: 10px;
+    padding: 7px 12px;
+}
+
+.skills a:hover{
+    background-color: #0B60B0;
+    color: white;
+    border-top-left-radius:  13px;
+    border-bottom-right-radius: 13px;
+}
+
+.links a{
+    font-size: 25px;
+    margin: 5px;
+    color: #40A2D8;
+}
+
+
+.mainbox{
+    margin-top: 50px;
+}
+
+.box{
+    border: 5px double black;
+    border-radius: 10px;
+    margin: 10px 30px;
+    display: flex;
+}
+
+.imgbox,.box1,
+.box2, .box3{
+    margin-left: 40px;
+}
+
+.imgbox{
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.imgbox img{
+    width: 380px;
+}
+
+h1{
+    margin: 10px 0px;
+    color: black;
+    font-family: Comic Sans MS;
+}
+
+h2{
+    margin: 7px 3px;
+    color: #0B60B0;
+    font-family: Comic Sans MS;
+}
+
+h3{
+    margin: 5px 6px;
+    color: #40A2D8;
+    font-family: Comic Sans MS;
+}
